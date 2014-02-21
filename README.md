@@ -1,4 +1,0 @@
-PandaBear
-=========
-
-A database
