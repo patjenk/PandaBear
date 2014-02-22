@@ -1,20 +1,20 @@
 ==============================
-Panda Bears Database Manifesto
+Panda Bear Database Manifesto
 ==============================
 
 An infinitely scalable database written in python.
 
-What Are We Deeply Passionate About
-===================================
-Making it easy for anyone with basic technology skills to setup a database that has infite scalability so they can make the world a better place.
+What Are We Deeply Passionate About?
+====================================
+We care about allowing anyone with basic technology skills to setup a scalable database.
 
-What Drives Our Economic Engine
-===============================
+What Drives Our Economic Engine?
+================================
 Cost per unit of storage. Lower is better.
 
-What Can We Be the Best In the World At
-=======================================
-The best distributed relational database application for storing data quickly and reliably.
+What Can We Be the Best In the World At?
+========================================
+We can be the best scalable relational database application.
 
 Core Values
 ===========
@@ -35,7 +35,7 @@ Core Values
 
 Higher Purpose
 ==============
-To enable world class breakthroughs via data retention and access.
+We want to enable world class breakthroughs by providing the best storage application possible.
 
 Version 0.0 Requirements
 ========================
@@ -43,14 +43,18 @@ Version 0.0 will be pure vaporware. The output is documentation, branding and a 
 
 Version 1.0 Requirements
 ========================
-Drop in replacement for MySQL and memcache for both master/slave configurations and ruby on rails/django.
+The first major release will be a drop in replacement for MySQL, memcached, and potentially redis for both master/slave configurations with an emphasis on compatability with Ruby on Rails/Django.
 
 Todo
 ====
-1. Create a hierarchy of necessary responsibilities.
-2. Create a description of code structure (which directories/files go where?) and documentation structure (how are we going to store and organize documents?).
-3. Create a structure for deciding what goes into each release.
-4. Create a plan for release 0.1.
-5. Create a plan for release 0.2.
-6. Create a plan for release 0.3.
-7. Create a plan for release 0.4.
+1. Create a hierarchy of necessary responsibilities within the project.
+2. Decide on which open source license to work with.
+3. Create a document describing code structure (which directories/files go where?) and documentation structure (how are we going to store and organize documents?).
+4. Create a structure for deciding what goes into each release.
+5. Create a document that describes how others can contribute.
+6. Create functional requirements for release 0.1.
+7. Create functional requirements for release 0.2.
+8. Create functional requirements for release 0.3.
+9. Create functional requirements for release 0.4.
+10. Create a logo.
+11. Add the created documentation and plan to the website.
