@@ -16,10 +16,10 @@ Person responsible for merging patches into the main tree.
 
 Evangalist
 =========
-Person responsible for telling the world about our work.
+Person responsible for telling the world about our work. This includes announcing releases to mailing lists and websites. Furthermore this perosn gets the fun job of creating swag: tshirts, hats, socks, mittens, whatever.
 
 Contributors
 ============
 Anyone submitting code and helping us out :-)
 
-
+Right now, Patrick Jenkins is filling all of these roles. These responsibilies will be handed off (and new responsibilties defined) as the project grows.
