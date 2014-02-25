@@ -9,13 +9,13 @@ Version 1.0 of Panda Bear Database has the ambitious goal of being a drop in rep
 Version Functionalities
 =======================
 
-0.1: Naive memcache functionality. This means you can connect and execute all memcache functions via the text protocol.
-0.2: Implementation of binary memcache protocol. Utilize the twisted library (or other high performance networking functionality) to handle connections
-0.3: Implement consistent hashing and hinted handoff
-0.4: Implement gossip protocol similar to Cassandra's for growing the memcache cluster.
-0.5: Implement Redis protocol and extra functionality required. 
-0.6: Add ability to read and query MySQL data files: MyISAM and InnoDB
-0.7: Add ability to write to MySQL data files: MyISAM and InnoDB
-0.8: Add ability to accept connections from a MySQL client and read and write data.
-0.9: Add ability to work as a master or slave to a MySQL 5.5 instance.
-1.0: Implement consistent hashing, hinted handoff and gossip protocol for MySQL.
+:0.1: Naive memcache functionality. This means you can connect and execute all memcache functions via the text protocol.
+:0.2: Implementation of binary memcache protocol. Utilize the twisted library (or other high performance networking functionality) to handle connections
+:0.3: Implement consistent hashing and hinted handoff
+:0.4: Implement gossip protocol similar to Cassandra's for growing the memcache cluster.
+:0.5: Implement Redis protocol and extra functionality required. 
+:0.6: Add ability to read and query MySQL data files: MyISAM and InnoDB
+:0.7: Add ability to write to MySQL data files: MyISAM and InnoDB
+:0.8: Add ability to accept connections from a MySQL client and read and write data.
+:0.9: Add ability to work as a master or slave to a MySQL 5.5 instance.
+:1.0: Implement consistent hashing, hinted handoff and gossip protocol for MySQL.
