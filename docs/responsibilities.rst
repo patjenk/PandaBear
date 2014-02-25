@@ -14,6 +14,10 @@ Patch Manager
 =============
 Person responsible for merging patches into the main tree.
 
+Test Manager
+============
+Person responsible for ensuring we have python tests that cover core functionality.
+
 Evangalist
 =========
 Person responsible for telling the world about our work. This includes announcing releases to mailing lists and websites. Furthermore this perosn gets the fun job of creating swag: tshirts, hats, socks, mittens, whatever.
