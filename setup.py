@@ -46,7 +46,7 @@ class CleanSDist(Command):
 setup_kwargs = {'name': 'pandabear',
                 'version': __version__,
                 'url': '',
-                'license': '',
+                'license': 'ISC',
                 'description': 'Infinitely Scalable Database',
                 'author': 'Patrick Jenkins',
                 'author_email': '',
