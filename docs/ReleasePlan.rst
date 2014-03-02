@@ -19,3 +19,7 @@ Version Functionalities
 :0.8: Add ability to accept connections from a MySQL client and read and write data.
 :0.9: Add ability to work as a master or slave to a MySQL 5.5 instance.
 :1.0: Implement consistent hashing, hinted handoff and gossip protocol for MySQL.
+
+Other Potential Functionalities
+===============================
+- Adding a persistent storage option for memcached when we add the redis functionality.
