@@ -10,6 +10,10 @@ Documentation Maintainer
 =======================
 Person responsible for writing, maintaining, and publishing relevent documentation.
 
+Foreign Language Maintainer
+---------------------------
+This person is responsible for maintaining documentation in non-english based languages. This person will probably have to do the majority of work at first but as the project grows their role will shift to coordinating the efforts of contributors for specific languages.
+
 Patch Manager
 =============
 Person responsible for merging patches into the main tree.
