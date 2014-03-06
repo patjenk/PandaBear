@@ -23,3 +23,4 @@ Version Functionalities
 Other Potential Functionalities
 ===============================
 - Adding a persistent storage option for memcached when we add the redis functionality.
+- Make Panda Bear Database computer rack and data center aware. That means that we can guard agains the failure of all nodes in a certain rack or data center and still ensure data availability.
