@@ -34,6 +34,12 @@ Functional Requirements
   :redudancy: The default number of copies to store of each data entry. The default is 1.
 
 
+Machine Ring
+============
+
+The machine ring is the set of nodes that make up the storage space of the memcached cluster. In our implementation every node will produce the same results as every other node for every write and read. This will be accomplished by every node working as both a storer or data and a coordinator of requests. This seamless infrastructure will utilize consistent hashing and hinted handoff to ensure success.
+
+
 Consistent Hashing
 ==================
 
@@ -45,12 +51,22 @@ In Panda Bear, we will have an adjustable ring size that is abstracted from the 
 
 We will also have a redudancy parameter that specifies how many copies of our data we want to keep in the ring. Each redudancy level requires a doubling of virtual nodes used. It is important to distribute the second ring of virtual nodes differently than the first (assuming the number of physical nodes is greater than 1). 
 
-This release of Panda Bear will have no ring management or healing functionality. The addresses of physical hardware will be specified when each node is started. Nodes will not check for other nodes status at startup. This will happen when they need to write or read from a seperate node.
+This release of Panda Bear will have minimal ring management and no healing functionality. The addresses of physical hardware will be specified when each node is started. Nodes will keep a list of other nodes and periodically update their health status. However, we will not rebalance the ring when a node becomes unavailable. We will begin to implement a hinted handoff protocol to implement this functionality.
 
 Since consistent hashing spreads the data evenly across the ring it is impossible for a client to consistently find the correct node. This means that every node in the ring has the responsibility of fulfilling all requests by contacting the appropriate sibling node and returning the correct value.
 
 
+Hinted Handoff
+==============
+
+Hinted handoff provides some resiliancy against temporary network outages. If a node acting as a coordinator is unable to store information in a different node the information will be stored temporarily in the coordinator node and written back later.
+
+Motivation
+----------
+
+:Apache Cassandra: http://wiki.apache.org/cassandra/HintedHandoff
+
 Todo For This Spec
 ==================
 
-- Define consistent hashing and hinted handoff so any developer can implment.
+- Improve the definition for node functionality. Particular coordinator and storer nodes.
